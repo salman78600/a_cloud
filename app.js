@@ -13,7 +13,7 @@ var multer = require('multer');
 
 
 // Database connection start
-mongoose.connect('mongodb://root:abuzar.1047@206.189.22.185:27017/anymany?authSource=admin&readPreference=primary&appname=MongoDB%20Compass&ssl=false', {
+mongoose.connect('localhost:8080', {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true,
